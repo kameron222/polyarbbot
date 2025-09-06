@@ -1,0 +1,37 @@
+# Logs
+*.log
+
+# Market data files (large)
+kalshi_markets.json
+kalshi_markets.csv
+polymarket_current_active_gamma.json
+polymarket_current_active_gamma.csv
+
+# Live data files
+live_prices.json
+arbitrage_opportunities.json
+strict_matches.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+config.json
+.env
